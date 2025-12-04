@@ -72,7 +72,8 @@ akışı sunmak.
   ----------------------------- -----------------------------------------
   `main.ipynb`                  Veri temizleme ve görselleştirme
                                 adımlarını içeren notebook
-
+                                
   `wiki_data.csv`               Wikipedia metin veri seti
+  
   -----------------------------------------------------------------------
 
