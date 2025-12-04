@@ -1,4 +1,4 @@
-# 📘 Wikipedia Duygu Analizi -- Veri Temizleme ve Görselleştirme
+# Wikipedia Duygu Analizi -- Veri Temizleme ve Görselleştirme
 
 Bu proje, Wikipedia'dan elde edilen duygu analizi verileri üzerinde
 **veri temizleme**, **ön işleme** ve **görselleştirme** işlemlerini
@@ -8,15 +8,15 @@ Model eğitimi yapılmamış olup, tamamen **data preprocessing + EDA
 
 ------------------------------------------------------------------------
 
-## 📂 Proje İçeriği
+## Proje İçeriği
 
 Notebook'ta gerçekleştirilen işlemler:
 
-### ✔️ 1. Veri Yükleme
+### 1. Veri Yükleme
 
 `wiki_data.csv` dosyası okunarak temel tablo yapısı incelendi.
 
-### ✔️ 2. Metin Temizleme (Text Cleaning)
+### 2. Metin Temizleme (Text Cleaning)
 
 Aşağıdaki işlemleri yapan bir temizleme fonksiyonu uygulandı:
 
@@ -25,19 +25,19 @@ Aşağıdaki işlemleri yapan bir temizleme fonksiyonu uygulandı:
 -   Rakamları kaldırma\
 -   Gereksiz boşlukları silme
 
-### ✔️ 3. Stopwords Temizleme
+### 3. Stopwords Temizleme
 
 NLTK ile İngilizce durak kelimeler indirildi ve metinlerden çıkarıldı:
 
 -   "the", "and", "is", "to" gibi bağlaçlar temizlendi\
 -   Her satır kelime listesine dönüştürülerek stopwords filtrelendi
 
-### ✔️ 4. Temizlenmiş Verinin İncelenmesi
+### 4. Temizlenmiş Verinin İncelenmesi
 
 -   İlk satırlar kontrol edildi\
 -   Kelime sayısı değişimleri gözlemlendi
 
-### ✔️ 5. Veri Görselleştirme
+### 5. Veri Görselleştirme
 
 Keşifsel veri analizi için temel grafikler oluşturuldu:
 
@@ -47,7 +47,7 @@ Keşifsel veri analizi için temel grafikler oluşturuldu:
 
 ------------------------------------------------------------------------
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 -   **Python**
 -   **Pandas**
@@ -57,7 +57,7 @@ Keşifsel veri analizi için temel grafikler oluşturuldu:
 
 ------------------------------------------------------------------------
 
-## 🚀 Amaç
+## Amaç
 
 Verileri duygu sınıflandırması için hazır hale getirmek,\
 temizlemek ve analiz etmek isteyen geliştiricilere örnek bir ön işleme
@@ -65,7 +65,7 @@ akışı sunmak.
 
 ------------------------------------------------------------------------
 
-## 📁 Dosyalar
+## Dosyalar
 
   -----------------------------------------------------------------------
   Dosya                         Açıklama
